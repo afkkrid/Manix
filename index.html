@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manix Mini App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Manix Mini App</h1>
+        <p>Выберите подписку:</p>
+
+        <!-- Подписка Basic -->
+        <div class="subscription">
+            <h2>Basic - 10 USDT</h2>
+            <p>Базовая подписка: доступ к основным функциям.</p>
+            <button onclick="selectSubscription('basic')">Купить</button>
+        </div>
+
+        <!-- Подписка Pro -->
+        <div class="subscription">
+            <h2>Pro - 20 USDT</h2>
+            <p>Про подписка: расширенные функции и приоритетная поддержка.</p>
+            <button onclick="selectSubscription('pro')">Купить</button>
+        </div>
+
+        <!-- Подписка VIP -->
+        <div class="subscription">
+            <h2>VIP - 50 USDT</h2>
+            <p>VIP подписка: полный доступ, эксклюзивные функции и личный менеджер.</p>
+            <button onclick="selectSubscription('vip')">Купить</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Подключение JavaScript -->
+</body>
+</html>
